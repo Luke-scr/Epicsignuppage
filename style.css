@@ -3,7 +3,7 @@ body {
     display: flex;
     flex-direction: column;                 align-items: center;                    margin: 0;
     padding: 0;
-    background-image: linear-gradient(to left,purple, green);
+    background-image: linear-gradient(to left,teal,green);
 }
 .button {
   height: 50px;
@@ -62,4 +62,7 @@ body {
 
 .type1:hover::before {
   transform: translateY(-50px) scale(0) rotate(220deg);
+}
+.input{
+   background-image: linear-gradient(to left,teal,green);
 }
