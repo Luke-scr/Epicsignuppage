@@ -41,7 +41,7 @@ body {
   content: "Sign up!";
   height: 50px;
   width: 150px;
-  background-color: #fff;
+  background-color: #00b0f9;
   color: #008080;
   position: absolute;
   top: 0%;
@@ -60,5 +60,5 @@ body {
 }
 
 .type1:hover::before {
-  transform: translateY(-50px) scale(0) rotate(120deg);
+  transform: translateY(-50px) scale(0) rotate(220deg);
 }
